@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+    width: 414px;
+}
+
+section {
+  padding-bottom: 71px;
+}
+
+nav {
+  overflow: hidden;
+  background-color: white;
+  position: fixed;
+  bottom: 0;
+  /* width: 100%; */
+  width: 364px;
+  /* padding: 16px 60px 16px 20px; */
+  padding-top: 5px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+nav a {
+  float: left;
+  width: 20%;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+  padding-right: 30px;
+  color: black;
+}
+
+nav .active {
+  font-weight: bold;
+}
+
+.tab-icon {
+  height: 30px;
+}
+
+.line {
+  height: 10px !important;
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+h2 {
+  font-size: 17px;
+  /* float: left; */
+  text-align: center;
+}
+
+.bus {
+  height: 30px;
+  float: left;
+  padding-top: 8px;
+}
+
+.route-data {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.route-data td, th {
+  font-size: 15px;
+  padding: 10px 10px 10px 10px;
+}
+
+.route-data tr:nth-child(odd){
+  background-color: #f2f2f2;
+}
+
+.route-data th {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: left;
+  background-color: #f2f2f2;
+  color: black;
+  font-size: 13px;
+}
+
+.route-data tr td:first-child {
+  width: 50px;
+}
+
+.route-data tr td:nth-child(even) {
+  width: 170px;
+}
+
+tbody {
+  border-bottom: 1px solid #ddd;
+}
+
+.top {
+  text-align: center;
+  background-color: #FAD87D;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.status {
+  width: 414px;
+}
+
+.east h2, .north h2, .south h2 {
+  color: #005ecc
+}
+
+.reroute h2 {
+  color: #ff7f3a;
+}
+
+.no-service h2 {
+  color: #e82b2b;
+}

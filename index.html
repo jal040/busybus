@@ -4,30 +4,119 @@
     <meta charset="utf-8">
     <title>css exercise four</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
   </head>
   <body>
+    <nav>
+      <a href="#"> <img src="images/directionIcon1.png" class="tab-icon" alt="directions"> Directions </a>
+      <a href="#" class="active"><img src="images/busIcon.png" class="tab-icon" alt="busIcon">Stations </a>
+      <a href="#"><img src="images/lineIcon.png" class="tab-icon line" alt="lineIcon">Lines </a>
+    </nav>
     <section class="container">
+      <img src="images/status.png" class="status" alt="status">
       <div class="top">
-        <h1>MODERN LUXURY <span class="emphasis">TRAVEL</span></h1>
+        <h1>Washington and State</h1>
       </div>
       <div class="content">
-        <div class="preview baku">
-          <h1>Baku</h1>
-          <img src="images/baku.jpg" class="images" alt="Baku">
+        <div class="preview east">
+          <!-- <img src="images/bus.png" class="bus" alt="bus"> -->
+          <h2>Eastbound</h2>
+          <table class="route-data">
+            <tr>
+              <th>Line</th>
+              <th>Destination</th>
+              <th>Frequency</th>
+            </tr>
+            <tr>
+              <td>60</td>
+              <td>Randolph/Harbor Dr</td>
+              <td>Every 20 minutes</td>
+            </tr>
+            <tr>
+              <td>124</td>
+              <td>Navy Pier</td>
+              <td>Every 10 minutes</td>
+            </tr>
+          </table>
         </div>
-        <div class="preview london">
-          <h1>London</h1>
-          <img src="images/london.png" class="images" alt="London">
+        <div class="preview north">
+          <!-- <img src="images/bus.png" class="bus" alt="bus"> -->
+          <h2>Northbound</h2>
+          <table class="route-data">
+            <tr>
+              <th>Line</th>
+              <th>Destination</th>
+              <th>Frequency</th>
+            </tr>
+            <tr>
+              <td>151</td>
+              <td>Devon/Clark</td>
+              <td>Every 16 minutes</td>
+            </tr>
+          </table>
         </div>
-        <div class="preview madrid">
-          <h1>Madrid</h1>
-          <img src="images/madrid.jpg" class="images" alt="Madrid">
+        <div class="preview south">
+          <!-- <img src="images/bus.png" class="bus" alt="bus"> -->
+          <h2>Southbound</h2>
+          <table class="route-data">
+            <tr>
+              <th>Line</th>
+              <th>Destination</th>
+              <th>Frequency</th>
+            </tr>
+            <tr>
+              <td>J14</td>
+              <td>103rd/Stony Island</td>
+              <td>Every 15 minutes</td>
+            </tr>
+            <tr>
+              <td>124</td>
+              <td>Navy Pier</td>
+              <td>Every 10 minutes</td>
+            </tr>
+          </table>
         </div>
-        <div class="preview rome">
-          <h1>Rome</h1>
-          <img src="images/rome.jpg" class="images" alt="Rome">
+        <div class="preview reroute">
+          <!-- <img src="images/bus.png" class="bus" alt="bus"> -->
+          <h2>Reroute</h2>
+          <table class="route-data">
+            <tr>
+              <th>Line</th>
+              <th>Destination</th>
+              <th>Frequency</th>
+            </tr>
+            <tr>
+              <td>6x</td>
+              <td>Jackson Park Express</td>
+              <td>N/A</td>
+            </tr>
+          </table>
+        </div>
+        <div class="preview no-service">
+          <!-- <img src="images/bus.png" class="bus" alt="bus"> -->
+          <h2>Out of Service</h2>
+          <table class="route-data">
+            <tr>
+              <th>Line</th>
+              <th>Destination</th>
+              <th>Frequency</th>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>Cottage Grove</td>
+              <td>Resumes 12:10am</td>
+            </tr>
+            <tr>
+              <td>20</td>
+              <td>Madison</td>
+              <td>Resumes 12:10am</td>
+            </tr>
+            <tr>
+              <td>157</td>
+              <td>Streeterville/Taylor</td>
+              <td>Resumes 6:00am</td>
+            </tr>
+          </table>
         </div>
       </div>
     </section>
